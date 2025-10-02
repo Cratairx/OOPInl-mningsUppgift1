@@ -4,8 +4,55 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welco!");
+       /* Objektorienterad programmering i Java, inlämningsuppgift 1.
+    På växthotellet ”Greenest” kan ägare checka in sina krukväxter, för omvårdnad, medan ägarna är på
+    semester. På hotellet blir växterna bortskämda och får sola under UV-lampor samt får optimal
+    mängd näringsvätska av den typ som varje växt behöver.
+    Hotellet är specialiserat på 3 typer av växter:
 
+
+
+
+
+
+    Eftersom formlerna är så krångliga, har hotellets ägare svårt att minnas hur mycket vätska varje växt
+    behöver och ber er om hjälp att skriva ett litet program som hjälper till att hålla reda på hur mycket
+    varje växt ska ha.
+    Systemet ska, ut ett användarperspektiv, fungera enligt följande:
+    En meddelande-ruta dyker upp på skärmen med texten ”Vilken växt ska få vätska?” och en tom rad
+    bredvid. Ägaren fyller i växtens namn på tomma raden och programmet visar en ny ruta där det står
+    hur många liter växten ska få samt vilken sorts vätska (kranvatten, mineralvatten eller proteindryck)
+    som ska serveras.
+    Dessa växter bor på hotellet:
+    • Kaktusen Igge, 20 cm hög
+    •
+    • Köttätande växten Meatloaf, 0,7 meter hög
+    • Palmen Olof, 1 meter hög
+    Betygskriterier:
+    För att bli Godkänd (G) krävs att du skriver det program som efterfrågas och att din lösning fungerar
+    enligt ovan. Programmet ska innehålla minst ett arv och minst ett interface, implementerade på ett
+    relevant sätt för det ovanstående datat. Vidare måste du använda dig av någon form av
+    polymorfism. Skriv en kommentar i koden där dessa förekommer så att Sigrun lätt kan se att du
+    behärskar detta. Koden ska vara enkelt läsbar och prydligt skriven.
+    Vidare måste programmet demonstreras på ett professionellt sätt. För att uppnå detta, innan du
+    demonstrerar, gå noga igenom och kontrollera att programmet verkligen fungerar. Testa att mata in
+    samtliga växter och kontrollera att du får korrekt resultat. Mata in några felaktiga värden och
+    kontrollera att programmet svarar på ett vettigt sätt och inte kraschar. Du kommer att behöva visa
+    både att programmet funkar och visa din kod. Tänk igenom vad du ska säga under redovisningen och
+    hur du ska visa upp din kod så att du framstår som den stabile programmerare du är. För att alla ska
+    hinna demonstrera får din demonstration ta max 5 minuter. OBS: Kör igenom din demonstration
+    innan och kolla av innan att du kommer att kunna hålla den tiden!
+    För att bli Väl Godkänd (VG) måste alla krav för att få G vara uppfyllda, samt att du måste visa att du
+    behärskar enums (uppräkningstyper) och inkapsling. Även här, skriv en kommentar i koden där du
+    har använt dig av inkapsling så att Sigrun ser att du har förstått vad det är.
+    Din kod ska genomgående följa de Best Practices vi pratat om på lektionerna och inga hårdkodade
+    strängar eller siffror får förekomma, dvs alla stängar och siffror ska lagras i variabler.
+    Koden skall vara uppladdad på StudentPortalen och på GitHub i ett publikt repo, som kursledaren
+    har åtkomst till (gäller både G och VG).
+    Denna uppgift görs individuellt.
+    Lycka till!*/
+        MainMenu mainMenu = new  MainMenu();
+        mainMenu.startMainMenu();
 
     }
 }
